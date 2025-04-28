@@ -8,13 +8,13 @@ import {
 import { getAuth } from 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: '',
-    authDomain: '',
-    projectId: '',
-    storageBucket: '',
-    messagingSenderId: '',
-    appId: '',
-    measurementId: '',
+    apiKey: 'AIzaSyC6hFL7YNvjHsqNqltGdXuaTKlPQyUlHyw',
+    authDomain: 'ample-earn.firebaseapp.com',
+    projectId: 'ample-earn',
+    storageBucket: 'ample-earn.firebasestorage.app',
+    messagingSenderId: '365557667199',
+    appId: '1:365557667199:web:8b668ff7739de9b6cb364a',
+    measurementId: 'G-RF66ZED184',
 }
 const firebaseApp = !getApps().length ? initializeApp(firebaseConfig) : getApp()
 const messaging = (async () => {
